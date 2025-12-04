@@ -1,7 +1,7 @@
 # cryptozombies-Zombie-Factory-Game-2-
-
-Solidity has looked quite similar to other languages like JavaScript. But there are a number of ways that Ethereum DApps are actually quite different from normal applications.
-
-To start with, after you deploy a contract to Ethereum, it’s immutable, which means that it can never be modified or updated again.
-
-The initial code you deploy to a contract is there to stay, permanently, on the blockchain. This is one reason security is such a huge concern in Solidity. If there's a flaw in your contract code, there's no way for you to patch it later. You would have to tell your users to start using a different smart contract address that has the fix.
+We've added a way to update our CryptoKitties contracts
+We've learned to protect core functions with onlyOwner
+We've learned about gas and gas optimization
+We added levels and cooldowns to our zombies
+We now have functions to update a zombie's name and DNA once the zombie gets above a certain level
+And finally, we now have a function to return a user's zombie army
